@@ -1,18 +1,19 @@
-# start-track-build
+# frontend-starter
 
-A minimal React starter that helps you track your build progress:
+A minimal React starter template with a built-in progress tracking component:
 - ⚡️ Vite for blazing fast development
 - 📝 Built-in BuildJourney component for tracking progress
 - 💾 Automatic localStorage persistence
 - 🎨 TailwindCSS styling
 - 🔧 ESLint configuration included
+- 📱 Mobile-responsive design
+- 💫 Modern UI with Lucide icons
 
 ## Quick Start
 
 ```bash
 # Clone the template
-git clone https://github.com/ideabrian/start-track-build your-project-name
-
+git clone https://github.com/ideabrian/frontend-starter frontend
 # Navigate to project
 cd your-project-name
 
@@ -26,11 +27,14 @@ npm run dev
 ## Features
 
 ### BuildJourney Component
-Track your project's progress with a built-in BuildJourney component:
-- Add, edit, and delete build steps
-- Automatic persistence to localStorage
-- Mobile-responsive design
-- Clean, modern UI with TailwindCSS
+A feature-rich progress tracking component that helps you document your build process:
+- ✅ Add, edit, and delete build steps
+- 🕒 Real-time timestamp for each step
+- ✓ Mark steps as complete/incomplete
+- 💾 Automatic persistence to localStorage
+- 📱 Fully responsive design
+- 🎨 Clean, modern UI with TailwindCSS
+- 🔄 Real-time clock display
 
 ### Project Structure
 ```
@@ -40,6 +44,14 @@ src/
   ├── App.jsx           # Main application component
   └── main.jsx         # Application entry point
 ```
+
+## Tech Stack
+
+- React 18
+- Vite 5
+- TailwindCSS 3
+- Lucide React Icons
+- ESLint
 
 ## Customization
 
